@@ -13,11 +13,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -85,6 +85,7 @@ ul {
   background-color: var(--accent-color);
   cursor: pointer;
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -147,6 +148,7 @@ ul {
   background-color: #f5f4fa;
   cursor: pointer;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
